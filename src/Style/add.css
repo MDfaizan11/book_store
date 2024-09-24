@@ -1,0 +1,46 @@
+.parent_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.add_wrapper {
+  display: flex;
+  background-color: white;
+  width: 700px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+}
+.add_wrapper .image {
+  height: 400px;
+  width: 400px;
+}
+.mui {
+  height: 33px;
+}
+.add_wrapper .image img {
+  height: 100%;
+  width: 100%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+}
+.form input {
+  height: 33px;
+  width: 240px;
+}
